@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `yarn start`
+![xbox bar not recording - Google Search and 1 more page - Personal - Microsoft​ Edge 06-10-2023 3 49 23 PM](https://github.com/nikhilpant00/getwork-assignment-fe/assets/105990262/2a284235-69f6-4efa-b5a1-39739c40ee6a)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
