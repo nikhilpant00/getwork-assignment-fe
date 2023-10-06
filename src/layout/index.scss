@@ -1,0 +1,15 @@
+.app-layout{
+    .main {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 10px 0 10px;
+
+        @media (min-width: 1280px) {
+            max-width: 1280px;
+        }
+        @media (max-width:950px) {
+            padding: 10px 0 0 0;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.job-post-card {
+    width: 100%;
+    // max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 10px;
+
+    .detail-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #00203f;
+    }
+
+    &:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .job-title {
+        display: flex;
+        align-items: center;
+        gap: 3%;
+
+        img {
+            width: 8%;
+        }
+
+        .title-box {
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
+            font-weight: 600;
+            color: #00203f;
+        }
+    }
+
+    .job-details {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            font-size: 14px;
+            font-weight: 400;
+            color: #00203f;
+        }
+
+
+        .duration,
+        .salary,
+        .experience {
+            @extend .detail-item; // Use SCSS @extend to apply shared styles
+        }
+    }
+
+
+    .location {
+        @extend .detail-item;
+    }
+
+    .role {
+        @extend .detail-item;
+    }
+
+    .divider {
+        border: none;
+        height: 1px;
+        margin: 0;
+        flex-shrink: 0;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+
+        .posted-at {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        span {
+            font-size: 14px;
+            font-weight: 400;
+            color: #00203f;
+        }
+    }
+
+}

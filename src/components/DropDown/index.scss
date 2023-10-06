@@ -1,0 +1,56 @@
+.drop-down {
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-decoration: none;
+        h5 {
+                font-size: 15px;
+        }
+    }
+
+    .drop-items {
+        min-height: 0px;
+        height: auto;
+        transition-duration: 302ms;
+        transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+        ul {
+            padding: 8px 0 8px 0;
+            margin: 0;
+            transition-duration: 302ms;
+                transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            .item {
+                display: flex;
+                flex-direction: row;
+                // justify-content: center;
+                align-items: center;
+                padding: 4px 16px;
+
+                span {
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    input[type="checkbox"] {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+                
+
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.04);
+                }
+            }
+        }
+    }
+}
