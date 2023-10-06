@@ -3,12 +3,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+### `yarn start`
+![xbox bar not recording - Google Search and 1 more page - Personal - Microsoft​ Edge 06-10-2023 3 49 23 PM](https://github.com/nikhilpant00/getwork-assignment-fe/assets/105990262/2a284235-69f6-4efa-b5a1-39739c40ee6a)
 
 In the project directory, you can run:
 ![React App - Personal - Microsoft​ Edge 06-10-2023 3 54 23 PM](https://github.com/nikhilpant00/getwork-assignment-fe/assets/105990262/a72dae8a-20e0-4ec2-8cee-a4a647721050)
 
-### `yarn start`
-![xbox bar not recording - Google Search and 1 more page - Personal - Microsoft​ Edge 06-10-2023 3 49 23 PM](https://github.com/nikhilpant00/getwork-assignment-fe/assets/105990262/2a284235-69f6-4efa-b5a1-39739c40ee6a)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
