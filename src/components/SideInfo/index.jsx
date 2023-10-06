@@ -11,9 +11,21 @@ function SideInfo() {
       <div className="container-10">
         <span className="question-title">New To GetWork?</span>
         <button className="upload-button">
-          <div>
-            <span className="title">Upload Resume</span>
-            <span className="sub-title">Connect with hiring experts</span>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column",
+            }}
+          >
+            <p className="title">Upload Resume</p>
+            <p
+              style={{ fontSize: "10px", marginTop: "2px" }}
+              className="sub-title"
+            >
+              Connect with hiring experts
+            </p>
           </div>
         </button>
       </div>
